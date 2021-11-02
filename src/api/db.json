@@ -1,0 +1,39 @@
+{
+  "Personas": [
+    {
+      "id": 1,
+      "name": "Miguel Salazar",
+      "pregunta": "Captiva, impulsadores"
+    },
+    {
+      "id": 2,
+      "name": "Lorena Salazar",
+      "pregunta": "Sprint, impulsadores"
+    },
+    {
+      "id": 3,
+      "name": "Sofia Salazar",
+      "pregunta": "Swift, impulsadores"
+    },
+    {
+      "id": 4,
+      "name": "Andres",
+      "pregunta": "Reanult, impulsadores"
+    },
+    {
+      "id": 5,
+      "name": "Pedro",
+      "pregunta": "Bmw M3, impulsadores"
+    },
+    {
+      "name": "dasdd",
+      "pregunta": "addasd",
+      "id": 1635121034997
+    },
+    {
+      "name": "Lore",
+      "pregunta": "carro",
+      "id": 1635193795332
+    }
+  ]
+}

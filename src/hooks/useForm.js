@@ -2,7 +2,7 @@ import {useState, useEffect} from 'react'
 import {helpHttp} from '../helpers/helpHttp'
 
 export const useForm = (initialForm, validateForm) => {
-    const [errors, setErrorss] = useState({})
+    const [errors, setErrors] = useState({})
     const [loading, setLoading ] = useState(false)
     const [response, setResponse] = useState(null)
     const [form, setForm] = useState(initialForm)
@@ -16,7 +16,7 @@ export const useForm = (initialForm, validateForm) => {
     }
     const handleSubmit = (e)=>{
         e.preventDefault()
-        setErrorss(validateForm(form))
+        setErrors(validateForm(form))
 
         if(Object.keys(errors).length === 0){
             alert('Enviando formulario')
@@ -35,7 +35,7 @@ export const useForm = (initialForm, validateForm) => {
     }
     const handleBlur = (e)=>{
         handleChange(e)
-        setErrorss(validateForm(form))
+        setErrors(validateForm(form))
     }
 
     return{
